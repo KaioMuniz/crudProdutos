@@ -1,0 +1,25 @@
+# Ignora arquivos e pastas gerados pelo Eclipse
+.classpath
+.project
+.settings/
+
+# Ignora diretórios de build
+bin/
+target/
+out/
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos do Maven (se usados)
+log/
+*.log
+
+# Ignora arquivos de backup e temporários
+*.tmp
+*.bak
+*~
+
+# Ignora arquivos gerados pelo sistema operacional
+.idea/
